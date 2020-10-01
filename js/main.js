@@ -1,4 +1,10 @@
 window.addEventListener("load", init);
+const fr = document.querySelector("#difficulty");
+const levels = {
+  easy: 5,
+  medium: 3,
+  hard: 1,
+};
 
 let time = 5;
 let score = 0;
